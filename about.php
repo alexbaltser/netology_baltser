@@ -10,31 +10,45 @@ $about = "Мягкий и пушистый";
 $email = "ibaltser@gmail.com"
 ?>
 
+<head>
+        <title>Alexey Baltser - personal Page</title>
+        <style>
+            dl {
+                display: table-row;
+            }
+
+            dt, dd {
+                display: table-cell;
+                padding: 5px 10px;
+            }
+        </style>
+    </head>
+
 <body>
 
 <h1>Страница пользователя <?php echo $name ?></h1>
 <dl>
-  <dt>Имя</dt>
+  <dt>Имя:</dt>
   <dd><?php echo $firstname ?></dd>
 </dl>
 
 <dl>
-  <dt>Возраст</dt>
+  <dt>Возраст:</dt>
   <dd><?php echo $age ?></dd>
 </dl>
 
 <dl>
-  <dt>Адрес электронной почты</dt>
+  <dt>Адрес электронной почты:</dt>
   <dd><?php echo $email ?></dd>
 </dl>
 
 <dl>
-  <dt>Город</dt>
+  <dt>Город:</dt>
   <dd><?php echo $city ?></dd>
 </dl>
 
 <dl>
-  <dt>О себе</dt>
+  <dt>О себе:</dt>
   <dd><?php echo $about ?></dd>
 </dl>
  </body>
