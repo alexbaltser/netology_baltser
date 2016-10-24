@@ -11,7 +11,7 @@ $email = "ibaltser@gmail.com"
 ?>
 
 <head>
-        <title>Alexey Baltser - personal Page</title>
+        <title>Alexey Baltser - personal page</title>
         <style>
             dl {
                 display: table-row;
