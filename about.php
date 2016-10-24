@@ -1,41 +1,40 @@
-<? php
-
-$firstname="Алексей";
-$lastname="Бальцер";
-$yearofbirth="1987";
-$currentyear="2016";
-$age=$currentyear-$yearofbirth;
-$name=$firstname . " " . $lastname;
-$city="Краснодар";
-$about="Мягкий и пушистый";
+<?php
+$firstname = 'Алексей';
+$lastname = "Бальцер";
+$yearofbirth = 1987;
+$currentyear = 2016;
+$age = $currentyear-$yearofbirth;
+$name = $firstname . " " . $lastname;
+$city = "Краснодар";
+$about = "Мягкий и пушистый";
+$email = "ibaltser@gmail.com"
 ?>
 
 <body>
 
-<h1>Страница пользователя <? $name ?></h1>
+<h1>Страница пользователя <?php echo $name ?></h1>
 <dl>
   <dt>Имя</dt>
-  <dd><? $firstname ?></dd>
+  <dd><?php echo $firstname ?></dd>
 </dl>
 
 <dl>
   <dt>Возраст</dt>
-  <dd><? $age ?> </dd>
+  <dd><?php echo $age ?></dd>
 </dl>
 
 <dl>
   <dt>Адрес электронной почты</dt>
-  <dd>ibaltser@gmail.com</dd>  
+  <dd><?php echo $email ?></dd>
 </dl>
 
 <dl>
   <dt>Город</dt>
-  <dd><? $city ?></dd>
+  <dd><?php echo $city ?></dd>
 </dl>
 
 <dl>
   <dt>О себе</dt>
-  <dd><? $about ?></dd>
+  <dd><?php echo $about ?></dd>
 </dl>
-  
  </body>
